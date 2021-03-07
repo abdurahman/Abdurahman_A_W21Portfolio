@@ -2,27 +2,28 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
-const About = () => {
+const Info = () => {
   return (
-    <div className="secion" id="bio">
+    <div className="secion" id="info">
       <div className="container">
-        <div className="about-section">
+        <div className="info-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>Biography</h1>
+              <h1>Info</h1>
             </Fade>
             <p>
-              {data.aboutParaOne}
+              {data.infoParaOne}
+              <br></br>
+              <iframe src="https://docs.google.com/document/d/e/2PACX-1vQKSmil119hnuWNiQ1-Q-8OTqDkCCl3buJQLpOL3oSGtVvxa2iF_UYcg0DK9f1wBA/pub?embedded=true"></iframe>
+              <br></br>
+              {data.infoParaTwo}
               <br></br>
               <br></br>
-              {data.aboutParaTwo}
-              <br></br>
-              <br></br>
-              {data.aboutParaThree}
+              {data.infoParaThree}
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img src={data.infoImage} alt="info"></img>
           </div>
         </div>
       </div>
@@ -30,4 +31,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Info

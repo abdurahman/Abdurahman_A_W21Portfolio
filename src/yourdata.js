@@ -8,32 +8,33 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Abdurahman",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Welcome",
     //Line 2 For Header
-    "products, brands,",
+    "To",
     //Line 3 For Header
-    "and experience",
+    "My Portfolio",
   ],
-  //   Header Paragraph
+  //   Header Paragraph (Bio)
   headerParagraph:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "abdurahman.ahmed18@outlook.com",
 
   // End Header Details -----------------------
+
+  // Personal Info Section ---------------------
+
+  infoParaOne: "",
 
   // Work Section ------------------------
   projects: [
@@ -118,7 +119,7 @@ export default {
 
   // End Work Section -----------------------
 
-  // About Secton --------------
+  // About/Bio Section --------------
   aboutParaOne:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
   aboutParaTwo:
@@ -187,22 +188,9 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+    { img: githubIcon, url: "https://github.com/abdurahman" },
   ],
 
   // End Contact Section ---------------
 }
 
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com

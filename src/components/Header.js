@@ -20,19 +20,19 @@ const Header = () => {
               <h1>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
-                  : "Building digital"}
+                  : "Welcome"}
               </h1>
               <h1>
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "products, brands"}
+                  : "To"}
               </h1>
               <h1>
                 {" "}
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
-                  : "and experience"}
+                  : "My Portfolio"}
               </h1>
             </div>
           </Fade>
@@ -42,7 +42,7 @@ const Header = () => {
           <Fade bottom>
             <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+                data.contactEmail ? data.contactEmail : "abdurahman.ahmed18@outlook.com"
               }`}
               className="primary-btn"
             >
