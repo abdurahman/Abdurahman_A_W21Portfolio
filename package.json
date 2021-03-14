@@ -1,9 +1,9 @@
 {
-  "name": "react-portfolio-template",
+  "name": "Abdurahman_A_W21Portfolio",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "Portfolio used for finding a job and to list skills and achievements",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Abdurahman Ahmed",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -20,6 +20,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-pdf": "^5.2.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1"
   },

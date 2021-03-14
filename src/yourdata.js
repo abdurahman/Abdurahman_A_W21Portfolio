@@ -17,15 +17,15 @@ export default {
   name: "Abdurahman",
   headerTagline: [
     //Line 1 For Header
-    "Welcome",
+    "A college student",
     //Line 2 For Header
-    "To",
+    "that is looking for a job",
     //Line 3 For Header
-    "My Portfolio",
+    "in the industry",
   ],
   //   Header Paragraph (Bio)
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Hi. My name is Abdurahman Ahmed and I am a software development student at George Brown College currently in the Computer Programming and Analysis program. I am in semester 6 which is my last semester until I graduate. I hope to gain a job in the industry after graduation and I feel confident enough to go into the industry and start applying for jobs!",
 
   //Contact Email
   contactEmail: "abdurahman.ahmed18@outlook.com",
