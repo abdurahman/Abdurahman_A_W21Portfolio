@@ -31,6 +31,9 @@ const Info = () => {
               <br></br>
               <br></br>
               {data.infoParaTwo}
+              <br></br>
+              <br></br>
+              {data.infoParaThree}
             </p>
           </div>
         </div>

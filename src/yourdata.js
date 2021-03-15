@@ -9,6 +9,23 @@ import codeIcon from "./images/code.svg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 
+// Project Images
+import employeemanage from "./images/employeemanage.png"
+import restaurantapp from "./images/ar5.jpeg"
+import chattinglounge from "./images/chattinglounge.png"
+import geeazy from "./images/geeazy.png";
+import projectimg from "./images/projectplan.png"
+import minutesomeeting from "./images/minutesomeeting.png";
+import statusreported from "./images/statusreported.png";
+import projectcharter from "./images/projectcharter.png"
+import machine from "./images/machine_learning.jpg"
+
+// Capstone project files
+import projectplan from '../public/assets/docs/projectplan.pdf';
+import statusreport from '../public/assets/docs/statusreport.pdf';
+import minutesmeeting from '../public/assets/docs/minutesmeeting.pdf'
+import teamcharter from '../public/assets/docs/teamcharter.pdf';
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -17,15 +34,15 @@ export default {
   name: "Abdurahman",
   headerTagline: [
     //Line 1 For Header
-    "A college student",
+    "A Canadian college student",
     //Line 2 For Header
     "that is looking for a job",
     //Line 3 For Header
     "in the industry",
   ],
-  //   Header Paragraph (Bio)
+  //   Header Paragraph
   headerParagraph:
-    "Hi. My name is Abdurahman Ahmed and I am a software development student at George Brown College currently in the Computer Programming and Analysis program. I am in semester 6 which is my last semester until I graduate. I hope to gain a job in the industry after graduation and I feel confident enough to go into the industry and start applying for jobs!",
+    "",
 
   //Contact Email
   contactEmail: "abdurahman.ahmed18@outlook.com",
@@ -34,64 +51,68 @@ export default {
 
   // Personal Info Section ---------------------
 
-  infoParaOne: "",
+  infoParaOne: "My past experience with programming started in high school when I learned the Visual Basic language. After doing that program for all 4 years of my student life in high school, I realized that I enjoyed learning and understanding how programming languages worked and how I can build programs out of them and because of this interest, I have decided to join George Brown College and their program in Computer Programming and Analysis to further my understanding and my studies in this career path.",
+
+  infoParaTwo: "Along the way, I have struggled in terms of learning new concepts and understanding how to implement them in my day to day work but with the help of friends and the Internet, I was able to overcome these situations time and time again. Another struggle I had during my college life is the lack of motivation to continue in my studies for the final two semesters. The pandemic in general took a toll on me and so I did not feel motivated to learn anything and I felt burnt out. To overcome this, I made sure I talked to friends and family about my daily life as well as exercised whether it be at home with weights or outside doing a simple thing like walking.",
+
+  infoParaThree: "For the future, I hope to be in a job working as a software developer either in a well known company or in a start up company building programs and also working on side projects within my professional career.  To achieve this, I will work on many skills such as learn new programming languages as well as people skills like communication and teamwork in order to be able to talk to colleagues in the workspace.",
 
   // Work Section ------------------------
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Employee Management Application", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "This application demonstrates how employees can be added, removed, viewed and updated using React JS, Spring Boot and MySQL.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        employeemanage,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/abdurahman/101207567_lab_assignment_2",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Geeazy Mobile Application", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Geeazy is a mobile application created from React Native and provides users with local handymen and contractor services.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        geeazy,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/farhan982/Geeazy",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Restaurant Mobile Application", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "An Android application built on Java that allows a user to see information about a list of restaurants and rate them from 1 - 5 stars.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        restaurantapp,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/BenJenkynStudent/MobileAppsProject",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "ChattingLounge Application", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A Discord like clone that allows users to join a set of channels with a username and communicate with one another in real time using Express JS, Socket.io and Node JS.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        chattinglounge,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: 'https://github.com/abdurahman/ChattingLounge',
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Machine Learning Assignment 2", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Using Python, Keras, Pandas and Tensorflow to implement a multiclass classification using Iris classical dataset", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        machine,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/abdurahman/101207567_python_assignment2",
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
@@ -119,15 +140,65 @@ export default {
 
   // End Work Section -----------------------
 
+  // Start capstone project section
+
+  credentials: [
+    {
+      id: 1, //DO NOT CHANGE THIS (Please)😅
+      title: "Project Plan", //Project Title - Add Your Project Title Here
+      para:
+        "", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        projectimg,
+      //Project URL - Add Your Project Url Here
+      url: projectplan,
+    },
+    {
+      id: 2, //DO NOT CHANGE THIS (Please)😅
+      title: "Minutes of Meeting", //Project Title - Add Your Project Title Here
+      para:
+        "", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        minutesomeeting,
+      //Project URL - Add Your Project Url Here
+      url: minutesmeeting,
+    },
+    {
+      id: 3, //DO NOT CHANGE THIS (Please)😅
+      title: "Status Report", //Project Title - Add Your Project Title Here
+      para:
+        "", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        statusreported,
+      //Project URL - Add Your Project Url Here
+      url: statusreport,
+    },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Team Charter", //Project Title - Add Your Project Title Here
+      para:
+       "", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        projectcharter,
+      //Project URL - Add Your Project Url Here
+      url: teamcharter,
+    },
+  ],
+
+
   // About/Bio Section --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "I am currently a software development student at George Brown College currently in the Computer Programming and Analysis program. I am in my final semester. I hope to gain a job in the industry after graduation and I feel confident enough to go into the industry and start applying for jobs.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I have learned many of the current programming languages such as Python, C#, Java, JavaScript, HTML, CSS, PHP, MySQL, ASP.NET and Swift. With these technologies, I have designed and developed software applications that met the technical requirements and functionality of the clients. Some examples of projects I have created are that I have made a client notification program using Bootstrap, MySQL, HTML5, CSS and PHP using the MVC model and a flight manager application in C#. I have also created a employee management application using React JS, Spring Boot and MySQL.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "With all of these things in mind, I can also state that I possess good writing as well as verbal skills which helps me state information in an effective manner and also helps me understand and handle complex situations in a orderly fashion. I can also write in detail the documentation of the program that I create so that other developers who look at my program can understand the logic behind the program and to help the user understand the application better with the documentation in hand. Two other skills that I am currently working on are my critical thinking skills and my problem solving skills as this will be necessary for my day to day life as a software engineer with problems that will arise in the workplace that I will need to solve for and to effectively write the code in a clean manner as well. I can also provide key suggestions that will help improve functionality of the application being created. I work well in a team oriented setting and strongly believe in working together to meet client obligations and company goals. I have the ability to work under pressure and meet tight deadlines while maintaining a friendly and positive attitude. ",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1010&q=80",
 
   //   End About Section ---------------------
 
@@ -178,7 +249,7 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+ // promotionHeading: "Heading",
   promotionPara:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   // End Promotion Section -----------------

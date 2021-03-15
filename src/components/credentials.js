@@ -10,18 +10,18 @@ const Credentials = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Credentials</h1>
+            <h1>Capstone Project</h1>
           </Fade>
 
           <div className="grid">
             <Fade bottom cascade>
-              {data.projects.map(project => (
+              {data.credentials.map(credential => (
                 <Card
-                  key={project.id}
-                  heading={project.title}
-                  paragraph={project.para}
-                  imgUrl={project.imageSrc}
-                  projectLink={project.url}
+                  key={credential.id}
+                  heading={credential.title}
+                  paragraph={credential.para}
+                  imgUrl={credential.imageSrc}
+                  projectLink={credential.url}
                 ></Card>
               ))}
             </Fade>
