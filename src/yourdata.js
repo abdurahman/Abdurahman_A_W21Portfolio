@@ -19,7 +19,7 @@ import minutesomeeting from "./images/minutesomeeting.png";
 import statusreported from "./images/statusreported.png";
 import projectcharter from "./images/projectcharter.png"
 import machine from "./images/machine_learning.jpg"
-
+import reactnative from "./images/reactnative.png"
 // Capstone project files
 import projectplan from '../public/assets/docs/projectplan.pdf';
 import statusreport from '../public/assets/docs/statusreport.pdf';
@@ -116,14 +116,14 @@ export default {
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "React Native Appliation", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Basic React Native Application with the functionality of showing two screens which are the Main Screen and an About Screen", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        reactnative,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/abdurahman/SecondAssignment",
     },
 
     /*
@@ -211,37 +211,31 @@ export default {
       id: 1,
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Proficient knowledge and understanding of websites using HTML5 and Bootstrap",
     },
     {
       id: 2,
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Designed and edited websites with CSS3 techniques",
     },
     {
       id: 3,
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Developed responsive websites and web applications using JavaScript and TypeScript",
     },
     {
       id: 4,
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      id: 5,
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Have designed and implemented websites as well as applications running React and React Native",
     },
     {
       id: 6,
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "5 years and counting of experience with programming multiple applications across different languages and platforms",
     },
   ],
 
@@ -251,7 +245,7 @@ export default {
 
  // promotionHeading: "Heading",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
